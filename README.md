@@ -1,11 +1,14 @@
 # wpycounts
 
 Count the number of words in a text file!
+Documentation: https://wpycounts.readthedocs.io/en/latest/index.html
 
 ## Installation
 
 ```bash
 $ pip install wpycounts
+OR
+$ pip install -i https://test.pypi.org/simple/ wpycounts
 ```
 
 ## Usage
