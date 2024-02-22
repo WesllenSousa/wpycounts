@@ -1,7 +1,8 @@
 # wpycounts
 
 Count the number of words in a text file!
-Documentation: https://wpycounts.readthedocs.io/en/latest/index.html
+1. Documentation: https://wpycounts.readthedocs.io/en/latest/index.html
+2. Test PyPI: https://test.pypi.org/project/wpycounts/
 
 ## Installation
 
