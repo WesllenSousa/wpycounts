@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "wpycounts"
-version = "0.2.0"
+version = "0.3.0"
 description = "Count the number of words in a text file!"
 authors = ["Wesllen Sousa"]
 license = "MIT"

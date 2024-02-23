@@ -2,6 +2,31 @@
 
 
 
+## v0.3.0 (2024-02-23)
+
+### Build
+
+* build: add CI workflow ([`4816a47`](https://github.com/WesllenSousa/wpycounts/commit/4816a476a1ee6baa2e42adf430cb34c6793ff9b1))
+
+### Chore
+
+* chore: add future warning menssage in dataset module ([`6a94d43`](https://github.com/WesllenSousa/wpycounts/commit/6a94d433b5b917d5d04092b82d11e9a6bd7a45db))
+
+### Feature
+
+* feat: add CI/CD workflow ([`98a0df5`](https://github.com/WesllenSousa/wpycounts/commit/98a0df5de978da71b212290ea1ddd352fd81c3b7))
+
+### Fix
+
+* fix: change the branch reference main to master in CI/CD ([`9657871`](https://github.com/WesllenSousa/wpycounts/commit/9657871700b2bd76a4ed26cf614879845c8b88a8))
+
+* fix: update python actions version to v4 ([`540f26b`](https://github.com/WesllenSousa/wpycounts/commit/540f26b1932dbbf6b1fda7e07f25e12b51ce8972))
+
+### Unknown
+
+* doc: add test ypi link ([`d47162b`](https://github.com/WesllenSousa/wpycounts/commit/d47162b38e43a2ee194406eb19d2da8dc92c48f9))
+
+
 ## v0.2.0 (2024-02-22)
 
 ### Build
