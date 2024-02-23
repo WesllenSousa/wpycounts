@@ -5,7 +5,7 @@ description = "Count the number of words in a text file!"
 authors = ["Wesllen Sousa"]
 license = "MIT"
 readme = "README.md"
-include = ["tests/*", "CHANGELOG.md"]
+include = ["tests/*", "CHANGELOG.md"]              # Extra dir/files to be included in dist package
 
 [tool.poetry.dependencies]
 python = "^3.9"
@@ -13,7 +13,7 @@ matplotlib = "^3.8.3"
 
 [tool.poetry.dev-dependencies]
 
-[tool.poetry.group.dev.dependencies]
+[tool.poetry.group.dev.dependencies]                # Dependencies used in dev environment
 pytest = "^8.0.0"
 pytest-cov = "^4.1.0"
 jupyter = "^1.0.0"
@@ -27,4 +27,9 @@ requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.semantic_release]
-version_variable = "pyproject.toml:version"
+version_toml = [
+    "pyproject.toml:tool.poetry.version",
+]                                                     # Location of version number for PSR to bump.
+branch = "main"                                       # Branch where releases should be made from.
+changelog_file = "CHANGELOG.md"                       # Location of changelog file for PSR to update using commit messages.
+build_command = "pip install poetry && poetry build"  # How to build new distributions for the release.                                   
